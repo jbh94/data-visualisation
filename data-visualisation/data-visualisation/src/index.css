@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background-image: url('assets/background.png');
+}
+
+.header {
+  background-color: rgb(36, 161, 224);
+  padding-top: 1px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.App {
+  background-color: rgb(231, 231, 231);
+  margin: 50px;
+  border: 10px solid rgb(250, 250, 250);
+  border-radius: 10px;
+  color: rgb(71, 71, 71);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  background: rgb(36, 161, 224);
+  color: white;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background: rgb(38, 172, 240);
+  transition: 340ms;
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-bottom: 30px;
+  color: white;
+  font-size: 50px;
+  background-color: rgb(36, 161, 224);
+}
+
+img {
+  padding: 1px;
+  border: 2px solid #585858;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.pageButtons {
+  margin-bottom: 15px;
+}
+
+.date-box {
+  background-color: rgb(36, 161, 224);
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.query-box {
+  background-color: rgb(36, 161, 224);
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  height: 20px;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.date-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(71, 71, 71);
+}
+.query-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(71, 71, 71);
+}
+
+.loading-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(71, 71, 71);
+}
+
+.loading-gif {
+  border: none;
+}
+
+select {
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(36, 161, 224);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+hr {
+  border: 10px solid rgb(223, 223, 223);
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  display: inline;
+}
+
+ol {
+  list-style: none;
+  text-align: center;
+  display: inline;
+}
